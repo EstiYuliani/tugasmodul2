@@ -24,6 +24,9 @@ int main(){
 	
 	cout<<"\n";
 	cout<<"Luas Rumah\t\t\t:"<<luas_rumah<<" m2\n";
+	
+	uas_in_box=luas_parket*jumlah_parket_in_box;
+	jumlah_box=luas_rumah/luas_in_box;
 }
 	
 	
