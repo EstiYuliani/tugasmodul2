@@ -27,6 +27,9 @@ int main(){
 	
 	uas_in_box=luas_parket*jumlah_parket_in_box;
 	jumlah_box=luas_rumah/luas_in_box;
+	
+	cout<<"Luas 1 box parket\t\t:"<<luas_in_box<<" m2\n";
+	cout<<"Jumlah box parket\t\t:"<<jumlah_box<<"\n";
 }
 	
 	
