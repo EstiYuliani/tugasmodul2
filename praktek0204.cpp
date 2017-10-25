@@ -12,6 +12,9 @@ int main(){
 	cout<<"masukkan lebar parket(mm)\t:";
 	cin >>lebar_parket;
 	luas_parket=(panjang_parket/1000)*(lebar_parket/1000);
+	
+	cout<<"jumlah parket dalam 1 box\t:";
+	cin>>jumlah_parket_in_box;
 }
 	
 	
