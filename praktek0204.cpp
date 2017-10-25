@@ -33,6 +33,9 @@ int main(){
 	
 	biaya_parket=harga_parket*jumlah_box;
 	cout<<"Biaya parket(Rp)\t\t:"<<biaya_parket<<"\n";
+	
+	biaya_pasang=luas_rumah*harga_pasang;
+	cout<<"Biaya Pasang(Rp)\t\t:"<<biaya_pasang<<"\n";
 }
 	
 	
