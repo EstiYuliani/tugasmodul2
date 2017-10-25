@@ -36,6 +36,9 @@ int main(){
 	
 	biaya_pasang=luas_rumah*harga_pasang;
 	cout<<"Biaya Pasang(Rp)\t\t:"<<biaya_pasang<<"\n";
+	
+	total_biaya=biaya_parket+biaya_pasang;
+	cout<<"Total Biaya(Rp)\t\t\t:"<<total_biaya<<"\n";
 }
 	
 	
