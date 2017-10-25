@@ -2,13 +2,17 @@
 using namespace std;
 
 int main(){
-	double luas(42),jumlah_box(22.3885),luas_box(1.87596),biaya_parket(11194.3),biaya_pasang,total_biaya(12034.3);
+	double luas_rumah(42),luas_in_box(1.87596),jumlah_box(22.3885);
+	double biaya_parket(11194.3),biaya_pasang,total_biaya(12034.3);
+	double panjang_parket(1215),lebar_parket(193),jumlah_parket_in_box(8);
+	double harga_parket(500),harga_pasang(20),luas_parket;
+	
 	
 	cout<<"Masukkan Luas Rumah(m2)\t\t:";
 	cin >> luas_rumah;
 	
 	cout<<"Masukkan panjang parket(mm)\t:";
-	cin >>panjang_parket;
+	cin >> panjang_parket;
 	cout<<"masukkan lebar parket(mm)\t:";
 	cin >>lebar_parket;
 	luas_parket=(panjang_parket/1000)*(lebar_parket/1000);
@@ -25,7 +29,7 @@ int main(){
 	cout<<"\n";
 	cout<<"Luas Rumah\t\t\t:"<<luas_rumah<<" m2\n";
 	
-	uas_in_box=luas_parket*jumlah_parket_in_box;
+	luas_in_box=luas_parket*jumlah_parket_in_box;
 	jumlah_box=luas_rumah/luas_in_box;
 	
 	cout<<"Luas 1 box parket\t\t:"<<luas_in_box<<" m2\n";
@@ -42,6 +46,5 @@ int main(){
 }
 	
 	
-}
 
 
