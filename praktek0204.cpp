@@ -21,6 +21,9 @@ int main(){
 	
 	cout<<"biaya pemasangan (/m2)\t\t:";
 	cin>>harga_pasang;
+	
+	cout<<"\n";
+	cout<<"Luas Rumah\t\t\t:"<<luas_rumah<<" m2\n";
 }
 	
 	
