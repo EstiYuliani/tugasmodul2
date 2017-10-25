@@ -18,6 +18,9 @@ int main(){
 	
 	cout<<"harga 1 box parket\t\t:";
 	cin>>harga_parket;
+	
+	cout<<"biaya pemasangan (/m2)\t\t:";
+	cin>>harga_pasang;
 }
 	
 	
