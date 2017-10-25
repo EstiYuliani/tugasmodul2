@@ -6,7 +6,12 @@ int main(){
 	
 	cout<<"Masukkan Luas Rumah(m2)\t\t:";
 	cin >> luas_rumah;
-
+	
+	cout<<"Masukkan panjang parket(mm)\t:";
+	cin >>panjang_parket;
+	cout<<"masukkan lebar parket(mm)\t:";
+	cin >>lebar_parket;
+	luas_parket=(panjang_parket/1000)*(lebar_parket/1000);
 }
 	
 	
