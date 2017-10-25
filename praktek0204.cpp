@@ -15,6 +15,9 @@ int main(){
 	
 	cout<<"jumlah parket dalam 1 box\t:";
 	cin>>jumlah_parket_in_box;
+	
+	cout<<"harga 1 box parket\t\t:";
+	cin>>harga_parket;
 }
 	
 	
