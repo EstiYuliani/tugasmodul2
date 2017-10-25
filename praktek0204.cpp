@@ -30,6 +30,9 @@ int main(){
 	
 	cout<<"Luas 1 box parket\t\t:"<<luas_in_box<<" m2\n";
 	cout<<"Jumlah box parket\t\t:"<<jumlah_box<<"\n";
+	
+	biaya_parket=harga_parket*jumlah_box;
+	cout<<"Biaya parket(Rp)\t\t:"<<biaya_parket<<"\n";
 }
 	
 	
